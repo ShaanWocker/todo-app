@@ -11,7 +11,7 @@ function App() {
   if (process.env.NODE_ENV === 'development') {
     API_URL = 'http://localhost:5000/todos/';
   } else {
-    API_URL = '/todos/';
+    API_URL = 'https://todo-app-backend-4.herokuapp.com/todos';
   }
 
   // Get data from json data
